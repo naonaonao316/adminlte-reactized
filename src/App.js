@@ -3,6 +3,7 @@ import Header from './components/Header.js';
 import Sidebar from './components/Sidebar.js';
 import Content from './components/Content.js';
 import Footer from './components/Footer.js';
+import ControlSidebar from './components/ControlSidebar.js';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Sidebar />
         <Content />
         <Footer />
+        <ControlSidebar />
       </div>
     );
   }
